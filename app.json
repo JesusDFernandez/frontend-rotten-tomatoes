@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "frontend-rotten-tomataes",
-    "slug": "frontend-rotten-tomataes",
+    "name": "frontend-rotten-tomatoes",
+    "slug": "frontend-rotten-tomatoes",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/tomato-fresh.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/tomato-fresh.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.jesusdfer2019.frontendrottentomatoes"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/tomato-fresh.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "22fc96de-7c5e-4047-9d63-d2664ff9d268"
+      }
     }
   }
 }
